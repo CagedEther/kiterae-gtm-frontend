@@ -1,0 +1,120 @@
+{
+  "colorScheme": "dark",
+  "fonts": [
+    {
+      "family": "Outfit",
+      "role": "body"
+    },
+    {
+      "family": "Space Mono",
+      "role": "monospace"
+    }
+  ],
+  "colors": {
+    "primary": "#1D1A32",
+    "secondary": "#A7A3C2",
+    "accent": "#FF33BE",
+    "background": "#080712",
+    "textPrimary": "#080712",
+    "link": "#131122"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "Outfit",
+      "heading": "Outfit"
+    },
+    "fontStacks": {
+      "heading": [
+        "Outfit",
+        "sans-serif"
+      ],
+      "body": [
+        "Outfit",
+        "sans-serif"
+      ],
+      "paragraph": [
+        "Outfit",
+        "sans-serif"
+      ]
+    },
+    "fontSizes": {
+      "h1": "96px",
+      "h2": "60px",
+      "body": "20px"
+    }
+  },
+  "spacing": {
+    "baseUnit": 8,
+    "borderRadius": "0px"
+  },
+  "components": {
+    "buttonPrimary": {
+      "background": "#FF33BE",
+      "textColor": "#FFFFFF",
+      "borderRadius": "33554400px",
+      "borderRadiusCorners": {
+        "topLeft": "33554400px",
+        "topRight": "33554400px",
+        "bottomRight": "33554400px",
+        "bottomLeft": "33554400px"
+      },
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(255, 51, 187, 0.4) 0px 0px 20px 0px"
+    },
+    "buttonSecondary": {
+      "background": "#080712",
+      "textColor": "#FF33BE",
+      "borderColor": "#FF33BE",
+      "borderRadius": "33554400px",
+      "borderRadiusCorners": {
+        "topLeft": "33554400px",
+        "topRight": "33554400px",
+        "bottomRight": "33554400px",
+        "bottomLeft": "33554400px"
+      },
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(255, 51, 187, 0.3) 0px 0px 15px 0px"
+    }
+  },
+  "images": {
+    "logo": null,
+    "favicon": "https://kiterae.com/favicon.svg",
+    "ogImage": null
+  },
+  "__llm_button_reasoning": {
+    "primary": {
+      "index": 1,
+      "text": "See How It Works",
+      "reasoning": "Button #1 has a vibrant background color (#FF33BE) which is typically used for primary CTAs. The text 'See How It Works' is action-oriented, making it a strong candidate for the primary button."
+    },
+    "secondary": {
+      "index": 0,
+      "text": "Get Started",
+      "reasoning": "Button #0 has a dark background color (#080712) and serves as a secondary option with the text 'Get Started'. It contrasts with the vibrant primary button, fitting the secondary role."
+    },
+    "confidence": 0.95
+  },
+  "personality": {
+    "tone": "modern",
+    "energy": "medium",
+    "targetAudience": "entrepreneurs and startups"
+  },
+  "designSystem": {
+    "framework": "tailwind",
+    "componentLibrary": ""
+  },
+  "confidence": {
+    "buttons": 0.95,
+    "colors": 0.9,
+    "overall": 0.925
+  },
+  "__llm_metadata": {
+    "logoSelection": {
+      "llmCalled": false,
+      "llmSucceeded": false,
+      "finalSource": "none"
+    },
+    "buttonClassification": {
+      "llmCalled": true,
+      "llmSucceeded": true
+    }
+  }
+}
